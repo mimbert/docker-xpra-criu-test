@@ -1,0 +1,143 @@
+Warning: running as root
+2020-06-08 13:48:32,834 cannot access python uinput module:
+2020-06-08 13:48:32,834  No module named uinput
+_XSERVTransSocketUNIXCreateListener: ...SocketCreateListener() failed
+_XSERVTransMakeAllCOTSServerListeners: server already running
+
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 4.9.0-8-amd64 x86_64 Debian
+Current Operating System: Linux k2 5.6.0-2-amd64 #1 SMP Debian 5.6.14-1 (2020-05-23) x86_64
+Kernel command line: BOOT_IMAGE=/vmlinuz-5.6.0-2-amd64 root=/dev/mapper/ssd-root ro noresume cryptdevice=/dev/nvme0n1p4:ssd:allow-discards quiet
+Build Date: 05 March 2019  08:11:12PM
+xorg-server 2:1.20.4-1 (https://www.debian.org/support) 
+Current version of pixman: 0.36.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(++) Log file: "/run/user/0/xpra/Xorg.S6.log", Time: Mon Jun  8 13:48:33 2020
+(++) Using config file: "/etc/xpra/xorg.conf"
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+2020-06-08 13:48:40,511 created unix domain socket: /run/user/0/xpra/k2-1
+2020-06-08 13:48:40,511 created unix domain socket: /run/xpra/k2-1
+2020-06-08 13:48:40,540 Warning: menu forwarding is disabled:
+2020-06-08 13:48:40,540  cannot load dbus helper: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+2020-06-08 13:48:40,554 pointer device emulation using XTest
+2020-06-08 13:48:40,874  OpenGL is supported on this display
+2020-06-08 13:48:40,895 Warning: cannot load dbus helper:
+2020-06-08 13:48:40,895  org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+2020-06-08 13:48:40,970 xpra X11 version 2.4.3-r21350M 64-bit
+2020-06-08 13:48:40,970  uid=0 (root), gid=0 (root)
+2020-06-08 13:48:40,970  running with pid 6 on Linux debian 10.4
+2020-06-08 13:48:40,970  connected to X11 display :1 with 24 bit colors
+2020-06-08 13:48:41,009 xpra is ready.
+2020-06-08 13:48:41,304 started command 'xcalc' with pid 65
+2020-06-08 13:48:41,306 31.1GB of system memory
+Warning: Cannot convert string "-adobe-symbol-*-*-*-*-*-120-*-*-*-*-*-*" to type FontStruct
+2020-06-08 13:48:57,785 New tcp connection received from 127.0.0.1:52632 on 0.0.0.0:16661
+2020-06-08 13:48:57,792 Handshake complete; enabling connection
+2020-06-08 13:48:57,807  automatic picture encoding enabled, also available:
+2020-06-08 13:48:57,807   h264, vp9, vp8, png, png/P, png/L, webp, rgb24, rgb32, jpeg, h265, mpeg1, mpeg2
+2020-06-08 13:48:57,809 Warning: the python netifaces package is missing
+2020-06-08 13:48:57,809 Python/GTK3 Linux Debian testing bullseye x11 client version 3.0.7-r25629 64-bit
+2020-06-08 13:48:57,810  connected from 'k2' as 'mimbert' - 'Matthieu Imbert'
+2020-06-08 13:48:57,870 setting key repeat rate from client: 500ms delay / 30ms interval
+2020-06-08 13:48:57,871 setting keymap: rules=evdev, model=pc105, layout=fr,us,us
+2020-06-08 13:48:57,883 setting keyboard layout to 'fr,us,us'
+2020-06-08 13:48:57,906  client root window size is 2560x1440 with 1 display:
+2020-06-08 13:48:57,906   :0.0 (677x381 mm - DPI: 96x96) workarea: 2560x1380 at 0x27
+2020-06-08 13:48:57,906     DEL DP-2-2 (597x336 mm - DPI: 108x108)
+2020-06-08 13:48:57,930 server virtual display now set to 2560x1440
+2020-06-08 13:48:57,938 client @02.666 Xpra X11 server version 2.4.3-r21350 64-bit
+2020-06-08 13:48:57,938 client @02.666  running on Linux debian 10.4
+2020-06-08 13:48:57,943 client @02.670 Attached to tcp://localhost:16661/
+2020-06-08 13:48:57,943 client @02.670  (press Control-C to detach)
+2020-06-08 13:48:57,957 DPI set to 30 x 34 (wanted 96 x 96)
+2020-06-08 13:48:57,957  you may experience scaling problems, such as huge or small fonts, etc
+2020-06-08 13:48:57,957  to fix this issue, try the dpi switch, or use a patched Xorg dummy driver
+Gtk-Message: 13:48:57.961: Failed to load module "canberra-gtk-module"
+2020-06-08 13:48:58,046 client @02.773 server does not support xi input devices
+2020-06-08 13:48:58,046 client @02.773  server uses: xtest
+2020-06-08 13:49:06,516 client has requested disconnection: client exit
+2020-06-08 13:49:06,516 Disconnecting client Protocol(tcp socket: 127.0.0.1:16661 <- 127.0.0.1:52632):
+2020-06-08 13:49:06,517  client request
+2020-06-08 13:49:06,520 xpra client 1 disconnected.
+
+Warning: running as root
+2020-06-08 13:50:03,857 cannot access python uinput module:
+2020-06-08 13:50:03,857  No module named uinput
+_XSERVTransSocketUNIXCreateListener: ...SocketCreateListener() failed
+_XSERVTransMakeAllCOTSServerListeners: server already running
+
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 4.9.0-8-amd64 x86_64 Debian
+Current Operating System: Linux k2 5.6.0-2-amd64 #1 SMP Debian 5.6.14-1 (2020-05-23) x86_64
+Kernel command line: BOOT_IMAGE=/vmlinuz-5.6.0-2-amd64 root=/dev/mapper/ssd-root ro noresume cryptdevice=/dev/nvme0n1p4:ssd:allow-discards quiet
+Build Date: 05 March 2019  08:11:12PM
+xorg-server 2:1.20.4-1 (https://www.debian.org/support) 
+Current version of pixman: 0.36.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(++) Log file: "/run/user/0/xpra/Xorg.S6.log", Time: Mon Jun  8 13:50:04 2020
+(++) Using config file: "/etc/xpra/xorg.conf"
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+2020-06-08 13:50:11,433 Warning: some of the sockets are in an unknown state:
+2020-06-08 13:50:11,433  /run/user/0/xpra/k2-1
+2020-06-08 13:50:11,433  /run/xpra/k2-1
+2020-06-08 13:50:11,433  please wait as we allow the socket probing to timeout
+2020-06-08 13:50:17,467 created unix domain socket: /run/user/0/xpra/k2-1
+2020-06-08 13:50:17,467 created unix domain socket: /run/xpra/k2-1
+2020-06-08 13:50:17,499 Warning: menu forwarding is disabled:
+2020-06-08 13:50:17,499  cannot load dbus helper: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+2020-06-08 13:50:17,514 pointer device emulation using XTest
+2020-06-08 13:50:17,860  OpenGL is supported on this display
+2020-06-08 13:50:17,883 Warning: cannot load dbus helper:
+2020-06-08 13:50:17,883  org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+2020-06-08 13:50:17,957 xpra X11 version 2.4.3-r21350M 64-bit
+2020-06-08 13:50:17,957  uid=0 (root), gid=0 (root)
+2020-06-08 13:50:17,958  running with pid 6 on Linux debian 10.4
+2020-06-08 13:50:17,958  connected to X11 display :1 with 24 bit colors
+2020-06-08 13:50:17,997 xpra is ready.
+2020-06-08 13:50:18,274 started command 'xcalc' with pid 67
+2020-06-08 13:50:18,276 31.1GB of system memory
+Warning: Cannot convert string "-adobe-symbol-*-*-*-*-*-120-*-*-*-*-*-*" to type FontStruct
+2020-06-08 13:50:37,239 New tcp connection received from 127.0.0.1:52634 on 0.0.0.0:16661
+2020-06-08 13:50:37,243 Handshake complete; enabling connection
+2020-06-08 13:50:37,254  automatic picture encoding enabled, also available:
+2020-06-08 13:50:37,254   h264, vp9, vp8, png, png/P, png/L, webp, rgb24, rgb32, jpeg, h265, mpeg1, mpeg2
+2020-06-08 13:50:37,256 Warning: the python netifaces package is missing
+2020-06-08 13:50:37,256 Python/GTK3 Linux Debian testing bullseye x11 client version 3.0.7-r25629 64-bit
+2020-06-08 13:50:37,257  connected from 'k2' as 'mimbert' - 'Matthieu Imbert'
+2020-06-08 13:50:37,312 setting key repeat rate from client: 500ms delay / 30ms interval
+2020-06-08 13:50:37,313 setting keymap: rules=evdev, model=pc105, layout=fr,us,us
+2020-06-08 13:50:37,325 setting keyboard layout to 'fr,us,us'
+2020-06-08 13:50:37,347  client root window size is 2560x1440 with 1 display:
+2020-06-08 13:50:37,347   :0.0 (677x381 mm - DPI: 96x96) workarea: 2560x1380 at 0x27
+2020-06-08 13:50:37,347     DEL DP-2-2 (597x336 mm - DPI: 108x108)
+2020-06-08 13:50:37,374 server virtual display now set to 2560x1440
+2020-06-08 13:50:37,385 client @02.650 Xpra X11 server version 2.4.3-r21350 64-bit
+2020-06-08 13:50:37,385 client @02.651  running on Linux debian 10.4
+2020-06-08 13:50:37,398 client @02.654 Attached to tcp://localhost:16661/
+2020-06-08 13:50:37,398 client @02.654  (press Control-C to detach)
+2020-06-08 13:50:37,400 DPI set to 30 x 34 (wanted 96 x 96)
+2020-06-08 13:50:37,400  you may experience scaling problems, such as huge or small fonts, etc
+2020-06-08 13:50:37,400  to fix this issue, try the dpi switch, or use a patched Xorg dummy driver
+Gtk-Message: 13:50:37.402: Failed to load module "canberra-gtk-module"
+2020-06-08 13:50:37,491 client @02.757 server does not support xi input devices
+2020-06-08 13:50:37,492 client @02.757  server uses: xtest
+2020-06-08 13:50:43,624 child 'xcalc' with pid 67 has terminated
+2020-06-08 13:50:43,624 all children have exited and --exit-with-children was specified, exiting
+2020-06-08 13:50:43,625 Disconnecting client Protocol(tcp socket: 127.0.0.1:16661 <- 127.0.0.1:52634):
+2020-06-08 13:50:43,625  server shutdown
+2020-06-08 13:50:43,627 xpra client 1 disconnected.
+2020-06-08 13:50:44,135 closing tcp socket 0.0.0.0:16661
+2020-06-08 13:50:44,135 killing xvfb with pid 10
+2020-06-08 13:50:44,136 removing socket /run/user/0/xpra/k2-1
+2020-06-08 13:50:44,136 removing socket /run/xpra/k2-1
+(II) Server terminated successfully (0). Closing log file.
